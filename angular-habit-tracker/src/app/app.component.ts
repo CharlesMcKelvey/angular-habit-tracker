@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import Data from 'src/data/hobbiesHabit.json';
+import Data from 'src/data/hobbies.habit.json';
 
 @Component({
 	selector: 'app-root',

@@ -1,6 +1,13 @@
-<p>Hello, Welcome to Habit Tracker</p>
-<ul>
-    <li *ngFor="let item of data">
-        <span>{{item.time}} - Amount: {{item.habit}} / {{item.time}}</span>
-    </li>
-</ul>
+<div class="container">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/dashboard">Dashboard</a>
+        </li>
+    </ul>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+</div>
